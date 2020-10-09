@@ -12,7 +12,7 @@ import { PublicRoutes } from './PublicRautes';
 export const AppRauter = () => {
 	const { user } = useContext(AuthContext);
 	return (
-		<Router basename="/heroes-app" >
+		<Router basename="/..." >
 			<div>
 
 				<Switch>
